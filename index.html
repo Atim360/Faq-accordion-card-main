@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" async></script>
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+  <main class="faq">
+    <div class="faq__illustration">
+      <div class="faq__illustrationMobile">
+        <img class="faq__illustrationMobile--pattern" src="images/bg-pattern-mobile.svg" alt="illustration pattern">
+        <img class="faq__illustrationMobile--content" src="images/illustration-woman-online-mobile.svg" alt="illustration of a woman interacting with a desktop">
+      </div>
+      <div class="faq__illustrationDesktop">
+        <div class="faq__illustrationDesktop--container">
+          <div class="faq__illustrationDesktop--background-pattern">
+            <img class="faq__illustrationDesktop--content" src="images/illustration-woman-online-desktop.svg" alt="illustration of a woman interacting with a desktop">
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="faq__content">
+      <h1 class="faq--title faq--margin-midhigh faq--alignSelf">FAQ</h1>
+      <div class="faq__question">
+        <input type="checkbox" id="faq__questionCheckbox1" class="faq__questionCheckbox faq__question--display-none">
+        <div class="faq__questionTitle faq__question--justify-spaceBetween">
+          <label for="faq__questionCheckbox1" class="faq__question--arrow">
+            <img src="images/icon-arrow-down.svg" alt="icon arrow down/up">
+          </label>
+          <label for="faq__questionCheckbox1">
+            <h2 class="faq--title faq--title-small">
+              How many team members can I invite?
+            </h2>
+          </label>
+        </div>
+        <p class="faq--paragraph faq__question--display-none">
+          You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
+        </p>
+      </div>
+      <div class="faq__question">
+        <input type="checkbox" id="faq__questionCheckbox2" class="faq__questionCheckbox faq__question--display-none">
+        <div class="faq__questionTitle faq__question--justify-spaceBetween">
+          <label for="faq__questionCheckbox2" class="faq__question--arrow">
+            <img src="images/icon-arrow-down.svg" alt="icon arrow down/up">
+          </label>
+          <label for="faq__questionCheckbox2">
+            <h2 class="faq--title faq--title-small">
+              What is the maximum file upload size?
+            </h2>
+          </label>
+        </div>
+        <p class="faq--paragraph faq__question--display-none">
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </p>
+      </div>
+      <div class="faq__question">
+        <input type="checkbox" id="faq__questionCheckbox3" class="faq__questionCheckbox faq__question--display-none">
+        <div class="faq__questionTitle faq__question--justify-spaceBetween">
+          <label for="faq__questionCheckbox3" class="faq__question--arrow">
+            <img src="images/icon-arrow-down.svg" alt="icon arrow down/up">
+          </label>
+          <label for="faq__questionCheckbox3">
+            <h2 class="faq--title faq--title-small">
+              How do I reset my password?
+            </h2>
+          </label>
+        </div>
+        <p class="faq--paragraph faq__question--display-none">
+          Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.
+        </p>
+      </div>
+      <div class="faq__question">
+        <input type="checkbox" id="faq__questionCheckbox4" class="faq__questionCheckbox faq__question--display-none">
+        <div class="faq__questionTitle faq__question--justify-spaceBetween">
+          <label for="faq__questionCheckbox4" class="faq__question--arrow">
+            <img src="images/icon-arrow-down.svg" alt="icon arrow down/up">
+          </label>
+          <label for="faq__questionCheckbox4">
+            <h2 class="faq--title faq--title-small">
+              Can I cancel my subscription?
+            </h2>
+          </label>
+        </div>
+        <p class="faq--paragraph faq__question--display-none">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </p>
+      </div>
+      <div class="faq__question">
+        <input type="checkbox" id="faq__questionCheckbox5" class="faq__questionCheckbox faq__question--display-none">
+        <div class="faq__questionTitle faq__question--justify-spaceBetween">
+          <label for="faq__questionCheckbox5" class="faq__question--arrow">
+            <img src="images/icon-arrow-down.svg" alt="icon arrow down/up">
+          </label>
+          <label for="faq__questionCheckbox5">
+            <h2 class="faq--title faq--title-small">
+              Do you provide additional support?
+            </h2>
+          </label>
+        </div>
+        <p class="faq--paragraph faq__question--display-none">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
